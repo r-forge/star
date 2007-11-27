@@ -1,0 +1,156 @@
+<html xmlns:mml="http://www.w3.org/1998/Math/MathML">
+<head>
+<title> e070528spontN1 </title>
+<link rel=stylesheet href="R2HTML.css" type=text/css>
+<object id="mathplayer" classid="clsid:32F66A20-7614-11D4-BD11-00104BD3F987"></object>
+<?import namespace="mml" implementation="#mathplayer"?>
+<script type="text/javascript" src="ASCIIMathML.js"></script>
+<link href="./runtime/styles/xp/grid.css" rel="stylesheet" type="text/css" ></link>
+<link href="gridR2HTML.css" rel="stylesheet" type="text/css" ></link>
+
+<script src="./runtime/lib/grid.js"></script>
+
+<script src="./gridR2HTML.js"></script>
+<script>
+   nequations=0;
+</script>
+</head>
+<body onload="translate()" bgcolor= FFFFFF background="" >
+ <h2 > e070528spontN1</h2>
+ <h3 > Spike train plot of e070528spontN1</h3>
+<p align=center><img src='e070528spontN1_st.png' border=1 width=500 height=500>
+<br>&nbsp;
+ 
+<br>&nbsp;
+
+ <h3 > Short summary of e070528spontN1</h3><p>A spike train with 336 events, starting at: 0.212 and ending at: 60.417 (s).</p><p>The mean ISI is: 0.18 and its SD is: 0.266 (s).</p><p>The shortest interval is: 0.007 and the longest is: 1.871 (s).</p><hr  width=100% size=1>
+ <h3 > Renewal test of e070528spontN1</h3>
+<p align=center><img src='e070528spontN1_rt.png' border=1 width=800 height=800><hr  width=100% size=1><p>The best model with 2 parameters is: invgauss.</p><p>Its estimated parameters values and associated se are:</p>
+<p align= center >
+<table cellspacing=0 border=1><caption align=bottom class=captiondataframe></caption><tr><td>
+	<table border=0 class=dataframe> <tr class= firstline > <th></th><th>mu</th><th>sigma2</th> </tr>
+ <tr><td class=firstcolumn>mean</td><td class=cellinside> 0.180</td><td class=cellinside>16.272</td></tr>
+ <tr><td class=firstcolumn>se</td><td class=cellinside> 0.017</td><td class=cellinside> 1.257</td></tr>
+ 
+	</tbody>
+</table>
+ </td></table>
+ <br>
+
+<br>&nbsp;
+
+ <h3 > Model comparison for e070528spontN1</h3>
+<p align=center><img src='e070528spontN1_cm.png' border=1 width=800 height=800>
+<br>&nbsp;
+ 
+<br>&nbsp;
+ 
+<br>&nbsp;
+
+ <h3 > Ogata's tests after time transformation of e070528spontN1 using a invgauss model</h3>
+<p align=center><img src='e070528spontN1_TTot.png' border=1 width=800 height=800>
+<br>&nbsp;
+<hr  width=100% size=1>
+ <h3 > Cross-Intensity with neuron 2 as a test train</h3>
+ <h4 > GAM fit summary (pre-binning bin width, 0.008, k=61, bs="cr"):</h4>
+<p class='character'>
+<br><b>Family</b>:<font class='family'>poisson
+</font><br></p><p class='character'>
+<b>Link function</b>:<font class='link'>log
+</font><br>
+<br></p><p class='character'><p>Formula:
+</p></p><p class='character'><font class='formula'> Count ~ s(Time, k = k, bs = bs) </font></p><p class='character'>
+<p>Parametric coefficients:
+</p></p><p class='character'>
+<p align=center><table cellspacing=0 border=1><td><table cellspacing=0> <tr class= firstline >        <th></th><th>Estimate</th><th>std.err.</th><th>t ratio</th><th>Pr(>|t[)</th></tr>
+</p><p class='character'><tr><td class=firstcolumn>(Intercept)</td><td class="CellInside">    3.9041</td><td class="CellInside">   0.01806</td><td class="CellInside">     216.1</td><td class="CellInside">< 2.22e-16</td></tr>
+</p><p class='character'>
+</table></td></table></center></p>
+<br>&nbsp;
+<p class='character'><p>Approximate significance of smooth terms:
+</p></p><p class='character'>
+<p align=center><table cellspacing=0 border=1><td><table cellspacing=0> <tr class= firstline > <th></th><th>edf</th><th>chi.sq</th><th>p-value</th></tr>
+</p><p class='character'><tr><td class=firstcolumn>s(Time)</td><td class=CellInside>     5.071</td><td class=CellInside>     39.12</td><td class=CellInside>5.0541e-05</td></tr>
+</p><p class='character'>
+</table></td></table></center></p><p class='character'>
+<p>Adjusted r-sq. = <b>0.382 </b>   GCV score = <b></b> 
+<br>Scale estimate = <b>1           </b>     n = <b>62</b>
+</p></p>
+<br>&nbsp;
+
+ <h4 > GAM goodness of fit diagnostics:</h4>
+<p align=center><img src='e070528spontN1_neuron 2_gc.png' border=1 width=800 height=800>
+ <h4 > Smoothed and "classical" cross-intensity plots:</h4>
+<p align=center><img src='e070528spontN1_neuron 2_ci.png' border=1 width=1000 height=700>
+<br>&nbsp;
+<hr  width=100% size=1>
+ <h3 > Cross-Intensity with neuron 3 as a test train</h3>
+ <h4 > GAM fit summary (pre-binning bin width, 0.005, k=98, bs="cr"):</h4>
+<p class='character'>
+<br><b>Family</b>:<font class='family'>poisson
+</font><br></p><p class='character'>
+<b>Link function</b>:<font class='link'>log
+</font><br>
+<br></p><p class='character'><p>Formula:
+</p></p><p class='character'><font class='formula'> Count ~ s(Time, k = k, bs = bs) </font></p><p class='character'>
+<p>Parametric coefficients:
+</p></p><p class='character'>
+<p align=center><table cellspacing=0 border=1><td><table cellspacing=0> <tr class= firstline >        <th></th><th>Estimate</th><th>std.err.</th><th>t ratio</th><th>Pr(>|t[)</th></tr>
+</p><p class='character'><tr><td class=firstcolumn>(Intercept)</td><td class="CellInside">    3.9566</td><td class="CellInside">   0.01384</td><td class="CellInside">       286</td><td class="CellInside">< 2.22e-16</td></tr>
+</p><p class='character'>
+</table></td></table></center></p>
+<br>&nbsp;
+<p class='character'><p>Approximate significance of smooth terms:
+</p></p><p class='character'>
+<p align=center><table cellspacing=0 border=1><td><table cellspacing=0> <tr class= firstline > <th></th><th>edf</th><th>chi.sq</th><th>p-value</th></tr>
+</p><p class='character'><tr><td class=firstcolumn>s(Time)</td><td class=CellInside>      3.33</td><td class=CellInside>     16.38</td><td class=CellInside>0.021863</td></tr>
+</p><p class='character'>
+</table></td></table></center></p><p class='character'>
+<p>Adjusted r-sq. = <b>0.129 </b>   GCV score = <b></b> 
+<br>Scale estimate = <b>1           </b>     n = <b>100</b>
+</p></p>
+<br>&nbsp;
+
+ <h4 > GAM goodness of fit diagnostics:</h4>
+<p align=center><img src='e070528spontN1_neuron 3_gc.png' border=1 width=800 height=800>
+ <h4 > Smoothed and "classical" cross-intensity plots:</h4>
+<p align=center><img src='e070528spontN1_neuron 3_ci.png' border=1 width=1000 height=700>
+<br>&nbsp;
+<hr  width=100% size=1>
+ <h3 > Cross-Intensity with neuron 4 as a test train</h3>
+ <h4 > GAM fit summary (pre-binning bin width, 0.009, k=54, bs="cr"):</h4>
+<p class='character'>
+<br><b>Family</b>:<font class='family'>poisson
+</font><br></p><p class='character'>
+<b>Link function</b>:<font class='link'>log
+</font><br>
+<br></p><p class='character'><p>Formula:
+</p></p><p class='character'><font class='formula'> Count ~ s(Time, k = k, bs = bs) </font></p><p class='character'>
+<p>Parametric coefficients:
+</p></p><p class='character'>
+<p align=center><table cellspacing=0 border=1><td><table cellspacing=0> <tr class= firstline >        <th></th><th>Estimate</th><th>std.err.</th><th>t ratio</th><th>Pr(>|t[)</th></tr>
+</p><p class='character'><tr><td class=firstcolumn>(Intercept)</td><td class="CellInside">    3.9055</td><td class="CellInside">   0.01913</td><td class="CellInside">     204.1</td><td class="CellInside">< 2.22e-16</td></tr>
+</p><p class='character'>
+</table></td></table></center></p>
+<br>&nbsp;
+<p class='character'><p>Approximate significance of smooth terms:
+</p></p><p class='character'>
+<p align=center><table cellspacing=0 border=1><td><table cellspacing=0> <tr class= firstline > <th></th><th>edf</th><th>chi.sq</th><th>p-value</th></tr>
+</p><p class='character'><tr><td class=firstcolumn>s(Time)</td><td class=CellInside>     1.876</td><td class=CellInside>    4.8967</td><td class=CellInside>0.29806</td></tr>
+</p><p class='character'>
+</table></td></table></center></p><p class='character'>
+<p>Adjusted r-sq. = <b>0.0718 </b>   GCV score = <b></b> 
+<br>Scale estimate = <b>1           </b>     n = <b>55</b>
+</p></p>
+<br>&nbsp;
+
+ <h4 > GAM goodness of fit diagnostics:</h4>
+<p align=center><img src='e070528spontN1_neuron 4_gc.png' border=1 width=800 height=800>
+ <h4 > Smoothed and "classical" cross-intensity plots:</h4>
+<p align=center><img src='e070528spontN1_neuron 4_ci.png' border=1 width=1000 height=700>
+<hr size=1>
+<font size=-1>
+	 Generated on: <i>Mon Oct 29 14:23:04 2007</i> - <b>R2HTML</b> 
+<hr size=1>
+	</body>
+</html>
