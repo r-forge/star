@@ -1,0 +1,13 @@
+Package: STAR
+Type: Package
+Title: Spike Train Analysis with R
+Version: 0.1-5
+Date: 2007-11-07
+Depends: survival, sound, mgcv, R2HTML
+Suggests: gam, lattice, ggplot2, HiddenMarkov
+Author: Christophe Pouzat
+Maintainer: Christophe Pouzat <christophe.pouzat@gmail.com>
+Description: Functions to analyze neuronal spike trains
+License: GPL version 2 or newer
+URL: http://www.biomedicale.univ-paris5.fr/physcerv/C_Pouzat/STAR.html
+Packaged: Fri Nov  9 16:05:34 2007; xtof

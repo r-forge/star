@@ -1,0 +1,100 @@
+** November 9 2007 C Pouzat
+Added demo corresponding to Ogata 1988 Fig. 2 to 13
+Added vignette of PouzatChaffiol_STARdraft
+	
+** November 8 2007 C Pouzat
+Added "[.spikeTrain" and corresponding S3method to NAMESPACE
+	
+** November 7 2007 C Pouzat
+Change in xlab of Chi2 plot in renewalTestPlot to
+make it coherent with the isi autocorrelation plot
+Change in plot.spikeTrain to have a proper background
+Poisson counting process line even if the first spike
+is not at t=0.
+Added extractor for spikeTrain objects: [.spikeTrain
+with associated documentation.
+Change default bs argument to "tp" in: 
+reportHTML.spikeTrain and reportHTML.repeatedTrain. 
+Corresponding changes made in .Rd files
+
+** November 6 2007 A Chaffiol & C Pouzat
+Typo in ShallowShocks.Rd
+Typo in cockroachALData.Rd
+Changed default bs in spsth to tp
+	
+** October 29 2007 C Pouzat
+Better NAMESPACE definition
+	
+** October 28 2007 C Pouzat
+Added e070528citronellal.rda and e070528spont.rda in
+data folder. Modified cockroachALData.Rd accordingly.
+Defined new generic methods gamObj and reportHTML.
+Added methods: reportHTML.spikeTrain, reportHTML.repeatedTrain
+reportHTML.gam.
+Added functions and method spsth, print.spsth, summary.spsth,
+plot.spsth, gamObj.spsth with associated docs.
+Added functions and method slockedTrain, print.slockedTrain, summary.slockedTrain,
+plot.slockedTrain, gamObj.slockedTrain with associated docs.
+Added functions jsd, jpsth, and methods contour.jpsth, image.jpsth,
+persp.jpsth plus function jpsth2df with associated docs.
+
+** October 27 2007 C Pouzat
+Version 0.1-4
+Typo correction in hist.lockedTrain.Rd
+Change automatic default ylim setting in plot.hist.lockedTrain
+Fixed a bug in breaks setting in hist.lockedTrain
+Added vertical line at t=0 in plot.hist.lockedTrain
+	
+** October 20 2007 C Pouzat
+Bug corrected in transformedTrain.R
+	
+** October 19 2007 C Pouzat
+Minor corrections to renewalTestPlot function and to renewalTestPlot.Rd
+Added transformedTrain.R and transformedTrain.Rd
+Added plot.transformedTrain.R and plot.transformedTrain.Rd
+Added summary.transformedTrain.R and summary.transformedTrain.Rd
+Added mkDummy.R and mkDummy.Rd
+	
+** October 18 2007 C Pouzat
+Added brt4df code and doc
+	
+** October 17 2007 C Pouzat
+Added exampleHMM demo
+
+	
+** October 2 2007 by C Pouzat
+Change function print.spikeTrain which now calls plot.spikeTrain
+instead of simply plot
+
+** September 13 2007 by C Pouzat
+Bug correction in mkGLMdf function in the repeatedTrain
+processing part
+	
+** September 7 2007 by C Pouzat
+Added mkGLMdf function
+	
+** August 30 2007 by C Pouzat
+Change in the default value of args "d" and "orderPlotPch",
+corresponding changes in the .Rd files and in the demo files.
+Added df4counts functions and doc + changes to pasth
+	
+** August 29 2007 by C Pouzat
+Few minor changes to rateEvolution and mkREdf
+.Rd file with package description added
+
+** August 28 2007 by C Pouzat
+Added "rate evolution" stuff: function rateEvolution,
+plot.rateEvolution, mkREdf and corresponding doc
+
+** August 27 2007 by C Pouzat
+New data sets: CAL1S, CAL1V, CAL2S, CAL2C
+Corresponding changes in doc.
+Two demo files added: cockroachDataSet1.R, cockroachDataSet2.R
+Changes in "MLE" functions which can now be called directly
+with spikeTrain object.
+Method diff.spikeTrain added.
+Change to the arguments (of) and to the function plot.spikeTrain
+ 	
+** August 23 2007 by C Pouzat
+Typo corrections in .Rd files
+Two arguments added to function plot.hist.lockedTrain

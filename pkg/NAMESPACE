@@ -1,0 +1,125 @@
+import(survival,mgcv,R2HTML,graphics)
+
+export(brt4df,
+       invgaussMLE,
+       gammaMLE,
+       llogisMLE,
+       lnormMLE,
+       rexpMLE,
+       weibullMLE,
+       is.durationFit,
+       qqDuration,
+       compModels,
+       dinvgauss,pinvgauss,hinvgauss,qinvgauss,rinvgauss,
+       dllogis,pllogis,hllogis,qllogis,rllogis,
+       drexp,prexp,hrexp,qrexp,rrexp,
+       hgamma,
+       hlnorm,
+       hweibull,
+       isiHistFit,
+       frt,"%frt%",
+       gamObj,
+       jsd,jpsth,jpsth2df,
+       lockedTrain,
+       mkDummy,
+       mkGLMdf,
+       rateEvolution,
+       mkREdf,
+       as.repeatedTrain,is.repeatedTrain,raster,
+       psth,df4counts,
+       reportHTML,
+       slockedTrain,
+       as.spikeTrain,is.spikeTrain,
+       varianceTime,is.varianceTime,
+       acf.spikeTrain,renewalTestPlot,
+       spsth,
+       trainWAV,
+       transformedTrain,
+       coef.durationFit,
+       logLik.durationFit,
+       print.spikeTrain,
+       summary.spikeTrain,
+       plot.spikeTrain,
+       diff.spikeTrain,
+       reportHTML.spikeTrain,
+       print.repeatedTrain,
+       summary.repeatedTrain,
+       plot.repeatedTrain,
+       reportHTML.repeatedTrain,
+       print.summary.repeatedTrain,
+       print.lockedTrain,
+       plot.lockedTrain,
+       hist.lockedTrain,
+       plot.hist.lockedTrain,
+       print.slockedTrain,
+       summary.slockedTrain,
+       plot.slockedTrain,
+       gamObj.slockedTrain,
+       summary.transformedTrain,
+       plot.transformedTrain,
+       plot.psth,
+       plot.rateEvolution,
+       plot.varianceTime,
+       plot.spsth,
+       print.spsth,
+       summary.spsth,
+       gamObj.spsth,
+       summary.frt,
+       plot.frt,
+       contour.jpsth,
+       image.jpsth,
+       persp.jpsth,
+       reportHTML.gam,
+       "[.spikeTrain"
+       )
+
+S3method(coef,durationFit)
+S3method(logLik,durationFit)
+
+
+S3method(print,spikeTrain)
+S3method(summary,spikeTrain)
+S3method(plot,spikeTrain)
+S3method(diff,spikeTrain)
+S3method(reportHTML,spikeTrain)
+S3method("[",spikeTrain)
+
+S3method(print,repeatedTrain)
+S3method(summary,repeatedTrain)
+S3method(plot,repeatedTrain)
+S3method(reportHTML,repeatedTrain)
+S3method(print,summary.repeatedTrain)
+
+S3method(print,lockedTrain)
+S3method(plot,lockedTrain)
+S3method(hist,lockedTrain)
+
+S3method(plot,hist.lockedTrain)
+
+S3method(print,slockedTrain)
+S3method(summary,slockedTrain)
+S3method(plot,slockedTrain)
+S3method(gamObj,slockedTrain)
+
+S3method(summary,transformedTrain)
+S3method(plot,transformedTrain)
+
+S3method(plot,psth)
+
+S3method(plot,rateEvolution)
+
+S3method(plot,varianceTime)
+
+S3method(plot,spsth)
+S3method(print,spsth)
+S3method(summary,spsth)
+S3method(gamObj,spsth)
+
+S3method(summary,frt)
+S3method(plot,frt)
+
+S3method(contour,jpsth)
+S3method(image,jpsth)
+S3method(persp,jpsth)
+
+S3method(reportHTML,gam)
